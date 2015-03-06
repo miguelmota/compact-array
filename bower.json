@@ -1,0 +1,22 @@
+{
+  "name": "compact-array",
+  "main": "compact-array.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/compact-array",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Returns an array with \"non-empty\" values only.",
+  "keywords": [
+    "compact",
+    "array"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}

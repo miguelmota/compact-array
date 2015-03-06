@@ -1,0 +1,29 @@
+{
+  "name": "compact-array",
+  "version": "0.0.1",
+  "description": "Returns an array with \"non-empty\" values only.",
+  "main": "compact-array.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/compact-array"
+  },
+  "keywords": [
+    "compact",
+    "array"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/compact-array/issues"
+  },
+  "homepage": "https://github.com/miguelmota/compact-array",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
