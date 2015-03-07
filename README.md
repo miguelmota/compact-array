@@ -28,13 +28,14 @@ var array = [
 ];
 
 console.log(compact(array));
-// [
-    'b',
-    false,
-    1,
-    0,
-    ['lolz',['a',4]
-  ]
+//
+[
+  'b',
+  false,
+  1,
+  0,
+  ['lolz',['a',4]
+]
 
 console.log(compact('non array')); // []
 ```
