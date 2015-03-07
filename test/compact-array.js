@@ -4,13 +4,13 @@ var compact = require('../compact-array');
 test('compact array', function (t) {
   t.plan(9);
 
-  t.deepEqual(compact(), {});
-  t.deepEqual(compact(null), {});
-  t.deepEqual(compact(''), {});
-  t.deepEqual(compact([]), {});
-  t.deepEqual(compact(1), {});
-  t.deepEqual(compact(false), {});
-  t.deepEqual(compact(true), {});
+  t.deepEqual(compact(), []);
+  t.deepEqual(compact(null), []);
+  t.deepEqual(compact(''), []);
+  t.deepEqual(compact([]), []);
+  t.deepEqual(compact(1), []);
+  t.deepEqual(compact(false), []);
+  t.deepEqual(compact(true), []);
 
   var array = [
     'b',
